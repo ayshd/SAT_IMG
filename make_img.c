@@ -3,8 +3,7 @@
 // url: http://fizz.phys.dal.ca/~atmos/martin/?page_id=140
 
 /////////////////////////////////////////////
-//char *f_asc   = "/media/sf_share/cmp_sat_soramame/asc/GlobalGWR_PM25_GL_201301_201312-RH35_NoDust_NoSalt-NoNegs.asc";
-char *f_asc   = "/media/sf_D_DRIVE/GlobalGWR_PM25_GL_201501_201512-RH35-NoNegs.asc";
+char *f_asc   = "./GlobalGWR_PM25_GL_201501_201512-RH35-NoNegs.asc";
 
 /*  image info
     0.01° × 0.01° w GWR adjustment [.asc.zip]
@@ -95,7 +94,6 @@ int main (void)
 	fprintf(fp_out, "255 255 255\n");
       } else {
 	fprintf(fp_out, "%d %d %d\n", color[59-(int)(59*(asc/100))][0], color[59-(int)(59*(asc/100))][1], color[59-(int)(59*(asc/100))][2]);
-	//fprintf(fp_out, "%d %d %d\n", color[(int)(59*(asc/100))][0], color[(int)(59*(asc/100))][1], color[(int)(59*(asc/100))][2]);
       }
     }
 
