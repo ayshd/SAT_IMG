@@ -1,3 +1,4 @@
-http://fizz.phys.dal.ca/~atmos/martin/?page_id=140
+（http://fizz.phys.dal.ca/~atmos/martin/?page_id=140）
 にて公開されている
-Global resolved estimate ground-level fine particulate matter (PM2.5)のASCIIデータを日本領域を画像化するプログラム
+「Global resolved estimate ground-level fine particulate matter」のASCIIデータを，
+日本領域（48.5N - 21.5N,  119E - 152E）のみ切り出し，画像化するプログラム
