@@ -109,7 +109,7 @@ int main (void)
   fclose(fp_out);
   fclose(fp_in);
 
-  // imagemagick required
+  // ImageMagick required
   // convert ppm to png image
   sprintf(command, "convert %s.ppm %s.png", f_ppm, f_ppm);
   printf("%s\n", command);
